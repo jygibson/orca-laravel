@@ -1,0 +1,91 @@
+body {
+    background-image: url("./images/lakemj.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.header{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.members-btn{
+    margin-left: 810px;
+}
+
+.learn-more-btn {
+    color: gold;
+}
+
+.col-10{
+    background-color: #343a40;
+    border: .4px;
+    border-style: solid;
+    border-color: gold;
+}
+.program-header{
+    color:gold;
+    font-family: 'Roboto', Sans-Serif;
+}
+.programs-intro {
+    Font-Family: 'Droid Serif', Serif;
+    color:darkgray;
+}
+
+.card{
+    border: .4px;
+    border-style: solid;
+    border-color: gold;
+}
+
+.card-title{
+    color:gold;
+    font-family: 'Roboto', Sans-Serif;
+}
+
+.card-subtitle{
+    font-family: 'Roboto', Sans-Serif;
+}
+
+.card-text{
+    Font-Family: 'Droid Serif', Serif;
+    color: darkgray;
+}
+
+#orca-title {
+    font-family: 'Roboto', Sans-Serif;
+    font-size: 35px;
+    color: gold;
+}
+
+#orca-subtitle {
+    font-family: 'Roboto', Sans-Serif;
+    font-size: 26px;
+    font-style: 'thin';
+    color: darkgrey
+}
+
+#crest {
+    width: 50%;
+    height:auto;
+    margin:auto;
+    display: block;
+
+}
+
+.text {
+    font-family: 'Roboto', Sans-Serif;
+    color: whitesmoke;
+}
+
+.about {
+    Font-Family: 'Droid Serif', Serif;
+    Font-Size: 15px;
+    color: whitesmoke;
+}
+
+.contact-header {
+    font-family: 'Roboto', Sans-Serif;
+    color: gold;
+}
