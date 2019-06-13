@@ -37,12 +37,12 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                                <label for="phone number"
+                                <label for="phone"
                                     class="col-md-4 col-form-label text-md-right">{{ __('Phone Number') }}</label>
                             <div class="col-md-6">
-                                    <input id="phone number" type="text"
-                                        class="form-control @error('phone number') is-invalid @enderror"
-                                        name="phone number" value="{{ old('phone') }}" required autocomplete="phone"
+                                    <input id="phone" type="text"
+                                        class="form-control @error('phone') is-invalid @enderror"
+                                        name="phone" value="{{ old('phone') }}" required autocomplete="phone"
                                         autofocus>
 
                                     @error('phone')
@@ -80,7 +80,7 @@
                                 </div>
                         </div>
                         <div class="form-group row">
-                                <label for="type"
+                                <label for="disability"
                                     class="col-md-4 col-form-label text-md-right">{{ __('Disability Type (If applicable)') }}</label>
                                 <div class="col-md-6">
                                     <input id="disability" type="text" class="form-control" name="disability"
@@ -88,13 +88,13 @@
                                 </div>
                         </div>
                         <div class="form-group row">
-                                <label for="waiver"
+                                <label for="terms"
                                     class="col-md-4 col-form-label text-md-right">{{ __('Terms and Conditions') }}</label>
                                 <div class="col-md-6 ">
-                                    <div class="form-inline"><input id="waiver" type="checkbox" class="form-inline"
-                                            name="waiver" value="waiver" {{ (old('waiver')== '1') ? 'checked':''}}> By
+                                    <div class="form-inline"><input id="terms" type="checkbox" class="form-inline"
+                                            name="terms" value="terms" {{ (old('terms')== '1') ? 'checked':''}}> By
                                         checking this box, I agree to the ORCA terms & conditions. </div>
-                                    @error('waiver')
+                                    @error('terms')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
