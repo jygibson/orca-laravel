@@ -16,7 +16,7 @@ class AddCustomFieldToUsersTable extends Migration
         Schema::table('users', function (Blueprint $table) {
             $table->string('phone')->after('email');
             $table->string('program')->after('phone');
-            $table->string('disability')->after('program');
+            $table->string('disability')->nullable()->after('program');
             $table->string('terms')->after('disability');
         });
     }

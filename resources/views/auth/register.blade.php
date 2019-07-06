@@ -93,7 +93,7 @@
                                 <div class="col-md-6 ">
                                     <div class="form-inline"><input id="terms" type="checkbox" class="form-inline"
                                             name="terms" value="terms" {{ (old('terms')== '1') ? 'checked':''}}> By
-                                        checking this box, I agree to the ORCA terms & conditions. </div>
+                                        checking this box, I agree to the ORCA <a href="{{ asset('files/ORCATermsandConditions.pdf') }}">terms and conditions</a>. </div>
                                     @error('terms')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
