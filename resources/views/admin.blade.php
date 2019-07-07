@@ -14,7 +14,28 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    You are logged in! Here is a list of current registered ORCA members and their information:<br>
+                    <br>
+                    <table class = "table">
+                        <thead>
+                            <tr>
+                                <th> Name </th>
+                                <th> Email </th>
+                                <th> Membership </th>
+                                <th> Disability</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                    @foreach ($users as $user)
+                            <tr>
+                                <td>{{$user->name}}</td>
+                                <td>{{$user->email}}</td>
+                                <td>{{$user->program}}</td>
+                                <td>{{$user->disability}}</td>
+                            </tr>
+                    @endforeach
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
