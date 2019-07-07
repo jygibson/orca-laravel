@@ -75,6 +75,7 @@ class RegisterController extends Controller
             'disability'=>$data['disability'],
             'terms' => $data['terms'],
             'password'=> Hash::make($data['password']),
+            'type'=>User::DEFAULT_TYPE,
         ]);
 
         return $user;

@@ -18,6 +18,7 @@ class AddCustomFieldToUsersTable extends Migration
             $table->string('program')->after('phone');
             $table->string('disability')->nullable()->after('program');
             $table->string('terms')->after('disability');
+            $table->string('type')->default('default');
         });
     }
 
