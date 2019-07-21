@@ -89,3 +89,14 @@ body {
     font-family: 'Roboto', Sans-Serif;
     color: gold;
 }
+
+footer {
+    position: sticky;
+    justify-content: right;
+}
+
+#my-info {
+    font-size: 8px;
+    color: lightgray;
+}
+
