@@ -78,6 +78,7 @@ class RegisterController extends Controller
             'type'=>User::DEFAULT_TYPE,
         ]);
 
+        Mail::to('jygibson922@gmail.com')->send(new newMember());
         return $user;
     }
 }
