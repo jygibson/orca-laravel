@@ -46,7 +46,7 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', 'jawsdb'),
+            'host' => env('DB_HOST', 'JAWSDB_URL'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'w63nmsuksb5co36b'),
             'username' => env('DB_USERNAME', 'yf38xh3mqn65psii'),
